@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+div.hlinks {
+    display: flex;
+    gap: 1.5em;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Verdana, Tahoma, sans-serif;
+    align-items: center;
+}
+
+div.hlinks * {
+    flex-grow: 0;
+}
+
+div img {
+    height: 54px;
+}
