@@ -19,6 +19,12 @@ h2 {
     color: #1F2937;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 h4 {
     font-size: 24px;
     color: #F9FAF8;
@@ -106,4 +112,21 @@ div.rinfo div.imgs div.img img {
     height: 160px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+div.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 240px;
+    background-color: #E5E7EB;
+}
+
+div.quote h3 {
+    align-self: center;
+}
+
+div.quote h4 {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bolder;
 }
