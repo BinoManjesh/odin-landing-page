@@ -17,6 +17,7 @@ h4 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: normal;
+    margin: 0;
 }
 
 h5, a {
@@ -26,14 +27,6 @@ h5, a {
     font-weight: normal;
 }
 
-div.hero div.main div.text button {
-    background-color: #3882F6;
-    border: 0;
-    border-radius: 5px;
-    padding: 0.5em 2em;
-    font-size: 18px;
-    color: #F9FAF8;
-}
 
 div.hero {
     display: flex;
@@ -56,6 +49,7 @@ div.hero div.header div.links {
 div.hero div.main {
     display: flex;
     align-items: stretch;
+    padding: 81px 0;
 }
 
 div.hero div.main img {
@@ -67,4 +61,13 @@ div.hero div.main div.text {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+div.hero div.main div.text button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+    font-size: 18px;
+    color: #F9FAF8;
 }
