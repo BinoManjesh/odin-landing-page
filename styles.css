@@ -130,3 +130,31 @@ div.quote h4 {
     color: #1F2937;
     font-weight: bolder;
 }
+
+div.act-call {
+    padding: 100px 240px;
+    background-color: #F9FAF8;
+}
+
+div.act-call div.container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 120px;
+    border-radius: 10px;
+}
+
+div.act-call div.text h4 {
+    font-weight: bolder;
+}
+
+div.act-call button {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8 ;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
