@@ -71,6 +71,7 @@ div.hero div.main {
     display: flex;
     align-items: stretch;
     padding: 100px 0;
+    gap: 32px;
 }
 
 div.hero div.main img {
@@ -80,7 +81,8 @@ div.hero div.main img {
 div.hero div.main div.text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
     align-items: flex-start;
 }
 
